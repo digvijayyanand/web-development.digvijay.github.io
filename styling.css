@@ -1,0 +1,136 @@
+body{
+    background-color: gray;
+}
+header, footer{
+    background-color: darkgray;
+    color: darkcyan;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+header{
+    /* margin-top: 0.67em; */
+    margin-bottom: 0.67em;
+}
+.topic
+{
+    /* border: 2px black double; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* height: 20em; */
+}
+.sub{
+    /* border-right: 2px black double; */
+    background-color: cadetblue;
+    width: 15em;
+    height: 12em;
+}
+.first{
+    position: relative;
+    animation-name: digvijay2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+.second{
+    position: relative;
+    animation-name: digvijay1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+}
+.third{
+    position: relative;
+    animation-name: digvijay2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+    animation-delay: 2.5s;
+}
+@keyframes digvijay1{
+    0%{
+        top:0px;
+        left:0%;
+    }
+    25%{
+        top: 0px;
+        left: -22.5%;
+    } 
+    50%{
+        left:0%;
+    }
+    75%
+    {
+        left:22.5%;
+    }
+    100%{
+        top: 0px;
+        left: 0%;
+    }
+}
+@keyframes digvijay2{
+    0%{
+        top:-1em;
+        left:0px;
+    }
+    25%{
+        top: 15em;
+        left: 0px;
+    }
+    50%{
+        top:30em;
+        left:0px;
+    } 
+    75%{
+        top:15em;
+        left:0px;
+    }
+    100%{
+        top: -1em;
+        left: 0px;
+    }   
+}
+.list{
+    font-size: large;
+    clear:both;
+    line-height: none;
+    /* background-color: cornflowerblue;
+    border: 5px black double; */
+    width: 61%;
+    margin: 0%;
+    position: relative;
+    left: 14.78em;
+}
+h2{
+    text-align: center;
+    color: cadetblue;
+    background-color: cornsilk;
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+}
+.club{
+    background-image:url(images/iit\ dhanbad.jpeg) ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-top: 0.25%;
+    margin-bottom: 0px;
+}
+li{
+    list-style-type: decimal-leading-zero;
+    color: darkcyan;
+    font-weight: bold;
+    margin: 5px;
+}
+.list .span{
+   background-color: cornsilk;
+}
+.list .span2{
+    background-color: aquamarine;
+}
+/* .dhanbad{
+    display: block;
+} */
